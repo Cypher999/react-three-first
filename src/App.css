@@ -1,0 +1,18 @@
+/* App.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevent scroll bars */
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  canvas {
+    display: block; /* Removes extra space below the canvas */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+  }
+  
